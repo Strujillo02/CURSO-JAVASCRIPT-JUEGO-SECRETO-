@@ -1,4 +1,4 @@
-/*
+
 let numeroSecreto = 0;
 let intentos = 1;
 let ListaNunerosSorteados=[];
@@ -64,28 +64,3 @@ function condicionesIniciales(){
   asignarElemento("p", `indica un numero del 1 al ${numeroMAximo}`);
   
 }
-*/
-let listaGenerica = [];
-let lenguajesDeProgramacion = ["JavaScript", "C", "C++", "Kotlin", "Python"];
-//'Java', 'Ruby' y 'GoLang
-lenguajesDeProgramacion.push("java", "Ruby", "GoLang");
-function mostrarLista(lista) {
-  console.log(lista);
-}
-mostrarLista(lenguajesDeProgramacion);
-function mostrarListaInversa(lista) {
-  console.log(lista.reverse());
-}
-mostrarListaInversa(lenguajesDeProgramacion);
-
-function p(lista1) {
-  let lista2 = [];
-  for (let i = 0; i < lista1.length; i++) {
-    lista2.push(lista1[i]*lista1[i]);
-  }
-  return lista2;
-}
-let numeros1 = [2, 1, 3, 8, 9, 4, 7, 4, 6, 5];
-let numeros2 =p(numeros1);
-console.log(numeros2);
-console.log(numeros1);
